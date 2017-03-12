@@ -1,0 +1,1 @@
+echo -e "> 1f 1\nx" | nc -w 1 localhost 6502

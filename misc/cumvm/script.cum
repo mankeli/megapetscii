@@ -1,0 +1,13 @@
+wait 0x0100
+
+setpos 0x1000
+setvel 0x0001  # match gb speed
+setacc 0 			0x02
+
+setpos 0x0000 		4
+
+wait 0x0015
+
+text 4 4 "hello i'm a faggot"
+text 4 6 "wait.." 10
+!

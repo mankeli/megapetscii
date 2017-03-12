@@ -1,0 +1,1020 @@
+#skip 0 "muna"
+
+setpos 0x7800
+setacc 0
+setvel 0
+
+wait 0xE2C
+setpos 0x0
+
+text 3 12 9 "hacks the pentagon while loading !" 5
+textcolor 11 5
+textcolor 9 5
+textcolor 11 5
+textcolor 9 5
+textcolor 11 5
+textcolor 9 5
+textcolor 5 5
+textcolor 9 5
+textcolor 5 5
+textcolor 13 5
+textcolor 5 5
+textcolor 13 5
+textcolor 11 5
+textcolor 5 5
+
+
+
+wait 0xE62
+setpos 0x2800
+
+text 3 12 13 "hacks the pentagon while loading !"
+wait 0xE95
+setpos 0x5000
+
+wait 0xf20
+textclear
+setacc 0x0001 			0x90
+setacc 0 			
+setvel 0
+setscreen 4 50
+music 3
+setvolume 3
+setscreen 5 50
+setvolume 6
+setscreen 6 100
+setvolume 9
+setscreen 7
+setvel 1
+setacc 1 20
+setacc 0
+wait 300
+setvolume 15
+setacc 1 50
+setacc 0 200
+setacc 0 200
+setacc 0 200
+setacc 0 200
+setacc 0 100
+setvel 10 
+setacc 0 100
+
+setvel 5
+setacc 0 100
+setacc 0 5
+setvel 60 150
+setacc 1 50
+setacc 0
+
+#petscii logo
+setvel 0 25
+setbg 1 5
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+setacc 1 100
+setacc 0 200
+setacc 0 200
+setacc 0 50
+setacc -1 50
+setacc 0 200
+
+#monkey1
+setacc 1 50
+setacc -1 100
+setacc 0
+setvel 50 250
+text 1 3 1 "i hiked all the way here for one thing"
+setacc 1 100
+setacc -1 200
+setacc 1 20
+setacc 0
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 1 4 1 "the secret hackers hideout is up ahead!"
+setvel 50 150
+setvel 0
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+
+text 3 5 1 "wow, i cant wait to meet the crew! " 100
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 3 6 1 "heard so much about these guys... " 100
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+setacc 1 100
+setacc 0 50
+setacc -1 100
+setacc 0
+setvel 20 200
+setvel 10 50
+setacc 1 100
+setacc -1 70
+setacc 0 200	
+setvel 0 25
+setbg 1 5
+
+
+#scummbar
+setscreen 31
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+text 2 2 1 "i wonder where everybody is"
+setacc 1 100
+setacc -1 100
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+
+
+setacc 0
+setvel 0
+setbg 1 5
+setscreen 33
+text 2 23 3 "... and who might you be !?"
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+
+text 2 2 1  "uuuhh..." 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textclear
+text 1 3 1  "my name is ash and i wanna be like flt! " 100
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 10 23 3 "go away!" 50
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 19 21 7 "you bother us..." 70
+textcolor 8 5
+textcolor 2 5
+textcolor 0 5
+textclear
+
+text 2 2 1  "damn" 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textclear
+text 1 3 1  "i'm trading these fine leather hacks!" 100
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 10 23 3 "go away!" 50
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 19 21 7 "you bother us..." 70
+textcolor 8 5
+textcolor 2 5
+textcolor 0 5
+textclear
+
+text 2 2 1  "believe in yourself" 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textclear
+textclear
+
+text 2 2 1  "ahem!" 20
+textclear
+
+text 1 3 1  "my name is ash and i wanna be a hacker!" 100
+setvolume 13 2
+setvolume 11 2
+setvolume 9 2
+setvolume 7 2
+setvolume 6 2
+setvolume 4 2
+setvolume 2 2
+setvolume 0 2
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 3 25 2 "*whisper*" 20
+text 17 18 3 "*whisper*" 20
+text 1 8 4 "*whisper*" 20
+text 30 20 5 "*whisper*" 20
+text 8 1 6 "*whisper*" 20
+text 18 3 7 "*whisper*" 20
+text 25 9 8 "*whisper*" 20
+text 11 3 10 "*whisper*" 20
+textclear
+setvolume 3 5
+setvolume 6 5
+setvolume 9 5
+setvolume 12 5
+setvolume 15 5
+text 2 23 3 "if you think you have what it takes.." 100
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 12 3 ".. then step beyond that door . . ." 100
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+setvel 0 50
+
+# ELEVATOR
+#
+setscreen 34 25
+setscreen 35 25
+setscreen 36 25
+setscreen 37 75
+setscreen 36 25
+setscreen 35 25
+setscreen 34 25
+textclear
+text 2 2 1  "am i truly ready for this ?" 75
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+
+setvel 0 50
+#-- place
+
+setvel 10 20
+setscreen 34
+setvel 10 20
+setscreen 34
+setvel 20 20
+setscreen 34
+setvel 0
+setscreen 34 25
+setscreen 35 25
+setscreen 36 25
+setscreen 37 50
+textclear
+text 2 23 3 "everything you know is about to change" 75
+textcolor 14 5
+textcolod 6 5
+textcolor 0 5
+setvel 0 50
+#-- place
+setvel 0 100
+
+#PREVIEW OS2
+textclear
+setscreen 38 50
+setacc 1 100
+setacc -1 100
+setacc 1 100
+setacc -1 100
+setacc 0
+setscreen 40 50
+setacc 1 101
+setacc 0 200
+setacc 0 200
+setacc 0 50 
+setvel 0
+
+#HL2 part
+setscreen 45 50
+setscreen 46 50
+setscreen 47 50
+setacc 1 100
+setacc -1 150
+setacc 1 150
+setacc 0
+setvel 0
+setacc 1 100
+setacc -1 100
+setacc 1 90
+text 2 20 3 "say hello to harry hacker !"
+setacc -1 100
+setvel 0
+setacc 0
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+
+#DATACRIME
+setbg 1 5
+setborder 1
+setbg 15 5
+setborder 15
+setbg 10 5
+setborder 13
+setbg 8 5
+setbg 9
+setborder 5
+setscreen 50 25
+setscreen 51 25
+setscreen 50 25
+setscreen 51 25
+setscreen 50 50
+setscreen 51 60
+setscreen 50 25
+setscreen 51 25
+setborder 11
+setbg 12 5
+setborder 2
+setbg 11 5
+setbg 0
+setborder 0
+setacc 1 100
+setacc -1 100
+setacc 1 100
+setacc -1 200
+setacc 1 200
+setacc 0 150
+setvel 50
+setscreen 54
+setvel 0
+
+#RAINBOW
+
+setscreen 55 25
+setscreen 56 25
+setscreen 57 25
+setscreen 58 25
+setscreen 59 50
+#MUSIC FADE OUT
+setvolume 13
+setacc 1 100
+setvolume 10
+setacc -1 100
+setvolume 8
+setacc 0
+setscreen 60 30
+setbg 1 10
+setbg 15 10
+setborder 1
+setvolume 1
+setscreen 61 5
+setbg 12 10
+setborder 15
+setbg 11 10
+setborder 12
+setscreen 62 25
+setborder 11
+setvolume 2
+setbg 0 10
+setborder 0
+setvolume 3 3
+setvolume 4 3
+setvolume 5 3
+setvolume 6 3
+setvolume 7 3
+setvolume 8 3
+
+setacc 1 100
+setacc -1 100
+setacc 0
+setvolume 5 10
+setvolume 4 10
+setvolume 3 10
+setvolume 2 10
+setvolume 1 10
+setvolume 0 10
+
+#DARKWORLD
+text 1 20 3 "you see why our existence is important?" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 21 3 "we uphold the world balance" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 22 3 "this could be your future" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 23 3 "a world without hackers" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear 50
+
+text 1 10 1  "this looks awful !" 75
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 1 11 1  "so, what is it like being a member?" 75
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear 50
+
+text 2 23 3 "i'm glad you asked..." 30
+music 1
+setvolume 2 10
+setvolume 4 10
+setvolume 6 10
+setvolume 8 10
+setvolume 10 10
+setvolume 12 10
+setvolume 13 10
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+
+#MIAMI SCROLL
+setvel 50 150
+setvolume 14
+setvel 50 150
+setvolume 15
+setvel 50 100
+setvel 0
+setscreen 65
+setacc 0 100
+setscreen 66
+setbg 1 5
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+setacc 0 75 
+setscreen 67
+setbg 1 5
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+setacc 0 75
+setscreen 68
+setbg 1 5
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+setacc 0 75
+setscreen 69
+setbg 1 5
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 5
+setacc 0 75
+setscreen 70 75
+setbg 1 5
+setborder 1
+setbg 15 5
+setbg 12 5
+setborder 3
+setbg 11 5
+setbg 0 5
+
+#MIAMI START
+setscreen 71 0
+setacc 1 50
+setacc 0 200
+setacc 0 200
+setacc 0 200
+setacc -1 150
+setacc 0 50
+setacc 1 200
+setacc 0 25
+setacc -1 50
+setacc 0
+setvel 40 100
+setvel 50 100
+setvel 60 200
+setvel 50 5
+setvel 40 5
+setvel 30 10
+setvel 20 10
+setvel 10 10
+setvel 0
+
+#LEONARD
+setscreen 76
+setborder 14 5
+setborder 6 10
+setborder 0 10
+setscreen 77
+setacc 1 100
+setacc -1 100
+setacc 0
+setscreen 78 25
+text 5 20 1  "hey, thanks leo !" 75
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+text 20 17 7  "no prob !!" 75
+setscreen 79 50
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+
+setacc 1 100
+setacc 0 130
+setvel 0
+
+#TRIAD - CANYON
+setscreen 82 200
+setscreen 83 200
+setscreen 84 100
+setvel 50 200
+setvolume 12
+setvel 50 200
+setvolume 10
+setvel 50 210
+setvolume 8
+setvel 0
+setscreen 87 150
+setvolume 7 10
+setvolume 6 10
+setvolume 5 10
+
+#FAIRLITE
+setscreen 89 30
+text 2 22 3 "let me prove my point" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 23 3 "that the world needs us" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 24 3 "take a pick, be honest !" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+setscreen 89 50
+setscreen 90 25
+setscreen 91 25
+setscreen 92 25
+setscreen 93 25
+setscreen 94 25
+setscreen 95 25
+setscreen 96 100
+setscreen 97 45
+setscreen 98 100
+setscreen 99 45
+setscreen 100 100
+setscreen 101 45
+setscreen 102 100
+setscreen 103 45
+setscreen 104 100
+setscreen 105 45
+setscreen 106 100
+setscreen 107 45
+setscreen 108 100
+setscreen 109 50
+setscreen 110 50
+serscreen 111 50
+setscreen 112 50
+setscreen 113 50
+setscreen 114 50
+setscreen 115 100
+text 14 7 1  "i don't know what to say ..."
+setvolume 4 10
+setvolume 3 10
+setvolume 2 10
+setvolume 1 10
+setvolume 0 10
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+
+setacc 1 100
+music 2
+setvolume 15
+setacc -1 100
+setscreen 116
+setacc 0
+setvel 0 50
+
+#MAXHACK
+setborder 11 5
+setborder 12 5
+setborder 15 5
+setborder 1
+setscreen 118 200
+setacc -1 100
+setacc 1 200
+setacc 0 200
+setacc 0 100
+setacc -1 100
+setacc 0
+setvel 10
+setbg 1 5
+setborder 1 0
+setbg 15 5
+setborder 15 0
+setbg 12 5
+setborder 12 0
+setbg 11 5
+setborder 11 0
+setbg 0 5
+setborder 0 0
+setvel 0
+setscreen 121 125
+
+#QR
+setscreen 122 100
+
+
+#GORDON
+setscreen 123 100
+setscreen 124 50
+setacc 1 100
+setacc 0 20
+setacc -1 200
+setacc 1 175
+setvel -50
+setacc 1 125
+setacc 0
+setvel 0
+
+#FACE 
+setacc 0
+setbg 1 5
+setborder 1 0
+setscreen 127
+setbg 15 5
+setborder 15 0
+setbg 12 5
+setborder 12 0
+setbg 11 5
+setborder 11 0
+setbg 0 5
+setborder 0 100
+setscreen 128 50
+setscreen 129 50
+setscreen 130 125
+setscreen 131 125
+setscreen 132 125
+setscreen 133 50
+setscreen 134 50
+setscreen 135 125
+setscreen 136 125
+setscreen 137 100
+setscreen 138 125
+setbg 1 5
+setborder 1 0
+setscreen 139
+setbg 15 5
+setborder 15 0
+setbg 12 5
+setborder 12 0
+setbg 11 5
+setborder 11 0
+setbg 0 5
+setborder 0 100
+
+setbg 1 5
+setscreen 140
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 75
+
+setbg 1 5
+setscreen 141
+setbg 15 5
+setbg 12 5
+setbg 11 5
+setbg 0 100
+
+setscreen 144 50
+setscreen 145 50
+setscreen 146 50
+setborder 6
+setscreen 147 50
+setscreen 148 50
+setborder 14
+setscreen 149 50
+
+# ------- TWISTER SISTER -----
+scrollmode 1
+settwistage 0x0050 100
+settwistage 0x1000 100
+
+settwistage 0xFF00 100
+settwistage 0x0000 100
+
+settwistage 0xF700 100
+settwistage 0x0700 100
+
+settwistage 0x0000 200
+
+settwistage 0x0800 25
+settwistage 0x1000 25
+settwistage 0x1800 25
+settwistage 0x2000 25
+settwistage 0xFF00 25
+settwistage 0xFE00 25
+settwistage 0xFD00 50
+# ------- REPLACE US WITH A COOL TWIST !! ---
+
+scrollmode 0
+setscreen 165 100
+setscreen 166 50
+setborder 1 10
+setscreen 167 50
+setborder 15 5
+setborder 10 5
+setborder 2 5
+setscreen 168 50
+
+setvel 0 200
+
+setscreen 169 50
+setscreen 170 50
+setscreen 171 50
+setscreen 172 50
+setscreen 173 50
+
+setborder 1 5
+setborder 15 5
+setborder 12 5
+setborder 11 5
+setborder 0 5
+text 2 22 3 "have you seen varmalde yet ?" 55
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 2 23 3 "she has been watching you a lot" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+
+#HANSIKAS
+setscreen 174
+text 2 24 3 "i think she likes you..."
+setacc 1 100
+setacc -1 100
+setacc 0
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+setscreen 175 50
+setscreen 176 50
+setscreen 177
+setacc 1 160
+setacc 0
+setvel 0
+setscreen 179
+setacc 1 100
+setacc -1 100
+setacc 0
+setscreen 180 100
+
+setborder 1 5
+setborder 3 5
+setborder 14 50
+setscreen 181 50
+setscreen 182 50
+setscreen 183 50
+setscreen 184 30
+setscreen 185 30
+setscreen 186 30
+setscreen 187 30
+setscreen 188 30
+setscreen 189 30
+setscreen 190 50
+setscreen 191 50
+setborder 13
+setbg 0 100
+setscreen 192 30
+setscreen 193 30
+setscreen 194 50
+setscreen 195 50
+setborder 9
+setbg 0 100
+setscreen 196 200
+setbg 1 5
+setborder 1 0
+setbg 15 5
+setborder 15 0
+setbg 12 5
+setborder 12 0
+setbg 11 5
+setborder 11 0
+setbg 0 5
+setborder 0 0
+setscreen 199 200
+text 5 20 1  "i can't imagine a life ..." 75
+setacc 1 100
+text 5 20 1 "... without hackers anymore"
+setacc -1 100
+setacc 0
+textcolor 15 5
+textcolor 12 5
+textcolor 11 5
+textcolor 0 5
+textclear
+setscreen 200 100
+setacc 1 125
+setacc -1 175
+setacc 1 150
+setvel 0
+setacc 0
+setscreen 203 100
+text 1 13 3 "i think you are ready to be one of us" 75
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+text 8 14 3 "come on, let's go for a drive !" 55
+textcolor 14 5
+textcolor 6 5
+textcolor 0 5
+textclear
+
+setvolume 14 5
+setvolume 13 5
+setvolume 12 5
+setvolume 11 5
+setvolume 10 5
+setvolume 9 5
+setvolume 8 5
+setvolume 7 5
+setvolume 6 5
+setvolume 5 5
+setvolume 4 5
+setvolume 3 5
+setvolume 2 5
+setvolume 1 5
+setvolume 0
+music 1
+setvolume 0 10
+setvolume 0 10
+
+
+setscreen 204 25
+setscreen 205 25
+setscreen 206 25
+setscreen 207 25
+setscreen 208 100
+setscreen 209 25
+setscreen 210 25
+setacc 1 100
+setacc -1 100
+setacc 0
+setscreen 212
+setborder 2
+setscreen 213 25
+setvolume 1
+setscreen 214 25
+setborder 10
+setvolume 1
+setscreen 215 25
+setvolume 1
+setscreen 216 25
+setvolume 2
+setscreen 217 25
+setvolume 3
+setscreen 218 100
+setvolume 4
+setscreen 219 25
+setvolume 5
+setscreen 220 25
+setvolume 6
+setscreen 221 25
+setvolume 7
+setscreen 222 25
+setvolume 8
+setscreen 223 25
+setvolume 9
+setscreen 224 25
+setvolume 10
+setscreen 225 25
+setvolume 11
+setscreen 226 25
+setvolume 12
+setscreen 227 25
+setvolume 13
+setscreen 228 25 
+setvolume 14
+setscreen 229 25
+setvolume 15
+label "muna"
+setscreen 230 25
+setscreen 231 50
+setscreen 232 150
+setacc 1 100
+setacc -1 100
+setacc 0
+setscreen 233
+setbg 1 5
+setborder 1 0
+setbg 15 5
+setborder 15 0
+setbg 12 5
+setborder 12 0
+setbg 11 5
+setborder 11 0
+setbg 0 5
+setborder 0 0
+setacc 0 200
+
+setacc 4 50
+setacc 0 100
+
+# ---------     ENDLESS SCROLL STARTS FROM HERE
+# setborder 0
+scrollmode 0x02
+setacc -2 200
+scrollmode 0x82
+setacc 0 100
+
+nop 200
+nop 200
+nop 200
+
+text 2 22 3 "thanks for watching" 200
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+textclear 200
+
+text 2 22 3 "program end" 5
+textcolor 15 5
+textcolor 1 5
+textcolor 15 5
+textcolor 1 5
+
+
+#setscreen 234 200
+#scrollmode 2 200
+#FIRST SCREEN, 234 -> 235 -> 236
+#Either randomize the screen order or just go linear
+# ---------     DEMON END
+
+
+
+
+wait 0xffff
+
+#text 4 4 "hello i'm a faggot"
+#text 4 6 "wait.." 10
+!
